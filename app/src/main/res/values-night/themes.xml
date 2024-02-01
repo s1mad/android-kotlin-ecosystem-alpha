@@ -3,5 +3,9 @@
     <style name="Base.Theme.EcosystemAlpha" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your dark theme here. -->
         <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <item name="android:statusBarColor">@color/app_background</item>
+        <item name="android:navigationBarColor">@color/app_background</item>
+
+        <item name="android:windowLightStatusBar">false</item>
     </style>
 </resources>
